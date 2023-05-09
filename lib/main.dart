@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
         (OSNotificationOpenedResult result) async {
       var additionalData = result.notification.additionalData;
 
-      String trackingUrl = additionalData!['track_url'];
+      String trackingUrl = additionalData!['tracking_url'];
 
       if (trackingUrl != "") {
         // req to tracking url
